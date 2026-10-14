@@ -3,8 +3,8 @@ const { Client, GatewayIntentBits, EmbedBuilder, SlashCommandBuilder, REST, Rout
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 // REEMPLAZA ESTOS DOS VALORES CON TUS DATOS:
-const TOKEN = 'AQUÍ_TU_TOKEN'; 
-const CLIENT_ID = 'AQUÍ_TU_CLIENT_ID'; 
+const TOKEN = 'MTU1OTY5MjAyODg1MjMxMDEzOA.GXLevW.fhgtCNlW0iKQLh2C0EUwNmfgLYHi4A-fBOvj7Y'; 
+const CLIENT_ID = '1559692028852310138'; 
 
 const command = new SlashCommandBuilder()
     .setName('resultado')
